@@ -8,6 +8,8 @@
 ***/
 package com.paulbutcher;
 
+import org.junit.jupiter.api.Test;
+
 public class HelloWorld {
 
   public static void main(String[] args) throws InterruptedException {
@@ -20,4 +22,10 @@ public class HelloWorld {
     System.out.println("Hello from main thread");
     myThread.join();
   }
+
+  @Test
+  public void simpleTest() {
+
+  }
+
 }
